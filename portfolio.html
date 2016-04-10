@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8" />
+        <title>彌永浩太郎</title>
+        <link rel="stylesheet" href="portfolio.css" />
+        <!-- BootstrapのCSS読み込み -->
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <!-- jQuery読み込み -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- BootstrapのJS読み込み -->
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+　　　　<script src="jquery.bxslider.min.js"></script>
+　　　　<link href="jquery.bxslider.css" rel="stylesheet" />
+　　　　<script type="text/javascript">
+                $(document).ready(function(){
+                    $('.bxslider').bxSlider({
+                auto: true,
+                    });
+                });
+        </script>
+    </head>
+<body>
+    <div class="header">
+      <div class="menu">
+        <nav>
+          <ul>
+            <li><a href="portfolio.html">Home</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="contents.html">Contents</a></li>
+            <li><a href="https://github.com/kotaroiyanaga">GitHub</a></li>
+          </ul>
+        </nav>    
+      </div>
+    </div>    
+    <section>
+        <h1>
+            ようこそ！Kotaroのポートフォリオページ
+        </h1>
+    </section>
+    <div class="container">
+       
+            <ul class="bxslider">
+              <li><img title="車" alt="" src="car.jpg" width="590" height="300" /></li>
+              <li><img title="酒" alt="" src="sake.jpg" width="590" height="300" /></li>
+              <li><img title="広島" alt="" src="hiroshima.jpg" width="590" height="300" /></li>
+            </ul>
+        
+        <section id="introduction">    
+            <h2>自己紹介</h2>
+              <p>現在経済学の大学院に所属</p>
+              <p>専門は統計と計量分析</p>
+              <p>趣味は10年間続けてきたクラリネット。オーケストラやってます♪</p>
+              <p>日本酒も大好きです！</p>
+              <p>今はプログラミングを勉強してます</p>
+        
+            <h2>SNS</h2>
+                
+                <p><a href="https://www.facebook.com/koutarou.iyanaga" target="_blank" >
+                    <img src="fb.jpg" alt="facebook" width="30" height="30" />
+                    </a>
+                </p>    
+                <p><a href="https://twitter.com/japandaisyouri" target="_blank" >
+                    <img src="twitter.jpg" alt="twitter" width="30" height="30" />
+                    </a>
+                </p>
+        </section>            
+    
+        <section id="form">            
+            <h2>お問合せ</h2>
+            <form action="#" method="post" >
+                <div class="form-group">
+                    <label>名前：<input type="text" name="name" class="form-controll" id="InputName" /></label>
+                </div>
+                <div class="form-group">
+                    <label>アドレス：<input type="email" name="email" class="form-controll" id="InputEmail" /></label>
+                </div>
+                <div class="form-group">
+                    <label>電話番号：<input type="tel" name="tel" class="form-controll" id="InputTel" /></label>
+                </div>
+                <div class="form-controll">
+                    <label>メッセージ：<textarea class="form-controll" id="InputMessage" cols="10" rows="4" maxlength="400" name="message" placeholder="Message"></textarea></label>
+                </div>
+            </form>  
+        </section>    
+    </div>
+</body>    
+    
+</html>
